@@ -1,0 +1,16 @@
+body {
+  background-color: #393838;
+  color: #f5fffa;
+}
+
+.main-title {
+  font-size: 4rem;
+  margin-bottom: 0;
+  padding-top: 500px;
+}
+
+.second-title {
+  font-size: 2rem;
+  margin-top: 0;
+}
+

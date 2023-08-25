@@ -1,0 +1,10 @@
+.title-container {
+  margin: 100px;
+}
+
+.project-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  justify-content: center;
+}
