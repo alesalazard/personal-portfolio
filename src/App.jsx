@@ -13,6 +13,7 @@ function App() {
         <Route path='proyectos' element={<Projects />} />
         <Route path='curriculo' element={<Curriculum />} />
       </Routes>
+      <footer className='footer'>Created with ღ by AleSalazarD</footer>
     </>
   );
 }

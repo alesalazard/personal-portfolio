@@ -1,8 +1,8 @@
-.card-main {
+.card {
   background-color: #f5fffa;
   color: #565454;
   padding: 10px;
   border-radius: 15px;
-  width: 250px;
-  height: 200px;
+  width: 18rem;
+  /* height: 200px; */
 }
