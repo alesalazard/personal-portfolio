@@ -1,14 +1,22 @@
 import React from "react";
 import { NavBar } from "../components/NavBar";
 import "../styles/curriculum.css";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelopeOpen,
+  FaRegFilePdf,
+} from "react-icons/fa";
 
 export const Curriculum = () => {
   return (
     <>
       <NavBar />
-      <h1 className="title1">Hablemos sobre Ale</h1>
+      <section className="main-section">
+        <h1 className="title1">Hablemos sobre Ale</h1>
+      </section>
       <section>
-        <img src="src/img/ale.jpg" alt="photo" />
+        <img src="src/img/ale.jpg" alt="photo" className="me-image" />
         <p>
           Mi camino formal como desarrolladora web comenzó en Backend, donde mi
           “romance” con Python, Java y Android me llevaron a querer conocer más
@@ -31,17 +39,24 @@ export const Curriculum = () => {
         </p>
       </section>
       <section>
-        <button>
+        <h2 className="curriculum-second-title">Contáctame si quieres!</h2>
+        <div className="social">
+          <a href="https://github.com/alesalazard">
+            <FaGithub className="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/alesalazard/">
+            <FaLinkedin className="icon" />
+          </a>
+          <a href="mailto:alxsalazar21@gmail.com">
+            <FaEnvelopeOpen className="icon" />
+          </a>
           <a
             href="https://drive.google.com/file/d/154UlW896oa_wVZtFG1Qgmnv_Koeu2CGA/view?usp=sharing"
             target="_blank"
           >
-            Mira Mi CV
+            <FaRegFilePdf className="icon" />
           </a>
-        </button>
-      </section>
-      <section>
-        <h2>Contáctame si quieres!</h2>
+        </div>
       </section>
     </>
   );

@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='/*' element={<Home />} />
         <Route path='proyectos' element={<Projects />} />
-        <Route path='curriculo' element={<Curriculum />} />
+        <Route path='about' element={<Curriculum />} />
       </Routes>
       <footer className='footer'>Created with ღ by AleSalazarD</footer>
     </>
@@ -19,5 +19,3 @@ function App() {
 }
 
 export default App;
-
-        

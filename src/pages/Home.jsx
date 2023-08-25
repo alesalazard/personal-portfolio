@@ -6,7 +6,9 @@ export const Home = () => {
       <>
         <h1 className='main-title'>Alexandra Salazar Domínguez</h1>
         <h2 className='second-title'>Desarrolladora de Software</h2>
-        <Button />
+        <div className='btn'>
+          <Button className="btn"/>
+        </div>
       </>
     )
 }

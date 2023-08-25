@@ -8,6 +8,22 @@ p {
   margin-top: 100px;
 }
 
-img {
+.me-image {
   border-radius: 50px;
+  margin: 50px;
+}
+
+.icon{
+  font-size: 150px;
+  margin: 30px;
+  
+}
+
+.curriculum-second-title {
+  margin-top: 150px;
+}
+
+button:hover {
+  background-color: #b8860b;
+  color: #000000;
 }
